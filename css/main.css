@@ -1,0 +1,131 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial; sans-serif;
+}
+.clearfix {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+div {
+  box-sizing:border-box;
+}
+header {
+  background: url(../img/headback.jpg) no-repeat center top / cover;
+  padding-bottom: 180px;
+}
+
+.banner {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: 50px;
+  background: #262626; no no-repeat center top / cover;
+}
+
+.container {
+  width:930px;
+  margin:0 auto;
+}
+
+.logo {
+  margin-top: -49px;
+  width: 40px;
+  float: left;
+}
+nav {
+  float: right;
+  margin-top: -35px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 40px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+}
+h1 {
+  color: #000;
+  margin-top: 260px;
+  font-size: 100px;
+  text-align: left;
+}
+.design {
+  color: #fff;
+}
+.banner {
+  background: #262626;
+  display:block;
+  width: auto;
+}
+
+.title {
+  padding-top: 115px;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+
+}
+
+.title p {
+  color: #777777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+
+
+}
+
+.about_items {
+  width: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about_items h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.about_items p {
+  color: #777777;
+  font-size: 16px;
+  margin-bottom: 5px;
+
+}
+#about {
+  padding-bottom: 120px;
+}
+
+#services {
+  background: #f7f7f7f7;
+  padding-bottom: 120px;
+}
+
+.works img {
+  margin-top: 50px;
+  float: left;
+}
+.works img:last-child {
+  float: right;
+}
