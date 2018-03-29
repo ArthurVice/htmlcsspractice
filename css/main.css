@@ -14,15 +14,13 @@ div {
 }
 header {
   background: url(../img/headback.jpg) no-repeat center top / cover;
-  padding-bottom: 180px;
+  height: 100vh;
 }
 
 .banner {
-  padding: 0;
-  margin: 0;
   width: auto;
   height: 50px;
-  background: #262626; no no-repeat center top / cover;
+  background: #262626;
 }
 
 .container {
@@ -31,17 +29,37 @@ header {
 }
 
 .logo {
-  margin-top: -49px;
-  width: 40px;
-  float: left;
+  position: fixed;
+  margin-top: 7px;
+  width: 30px;
+  margin-left: 500px;
+  float: right;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.20);
+  -moz-transform: scale(1.20);
+  -ms-transform: scale(1.20);
+  -o-transform: scale(1.20);
+  transform: scale(1.20);
 }
 nav {
+  overflow: hidden;
+  background: #262626;
+  position: fixed;
   float: right;
-  margin-top: -35px;
+  margin-left: -500px;
+  top: 0;
+  padding: 0;
+  width: 10000px;
+  height: 50px;
 }
 
 .menu {
   padding: 0;
+  padding-left: 1000px;
   margin: 0;
   display: block;
 }
@@ -53,18 +71,28 @@ nav {
 }
 
 .menu li a {
+  float: left;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: normal;
+  margin-top: 15px;
 }
+
+.menu li a:hover{
+  font-weight: bold;
+}
+
 h1 {
   color: #000;
-  margin-top: 260px;
+  vertical-align: middle;
+  margin-top: +35%;
+  margin-bottom: auto;
   font-size: 100px;
   text-align: left;
 }
+
 .design {
   color: #fff;
 }
@@ -98,6 +126,7 @@ h1 {
 
 .about_items {
   width: auto;
+  vertical-align: middle;
   text-align: center;
   margin-top: 50px;
 }
@@ -112,6 +141,7 @@ h1 {
   font-size: 16px;
   margin-bottom: 5px;
 
+
 }
 #about {
   padding-bottom: 120px;
@@ -125,7 +155,74 @@ h1 {
 .works img {
   margin-top: 50px;
   float: left;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
 }
 .works img:last-child {
   float: right;
+}
+
+.works img:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.portfolio_items {
+  width: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.portfolio_items a{
+  margin: 0;
+  padding: 0;
+  color: #000;
+  margin-top: -150px;
+  float: right;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.portfolio_items span{
+  float: right;
+  margin-top: -145px;
+}
+.cgi {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.html {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 120px;
+}
+.html_items a {
+  margin-top: -270px;
+  margin-right: 70px;
+}
+
+.html_items span{
+  margin-top: -260px;
+  margin-right: -30px;
+}
+footer {
+  background: #f7f7f7f7;
+  padding: 0;
+  margin: 0;
+
+}
+#contact {
+  list-style-type: none;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-bottom: 0;
 }
