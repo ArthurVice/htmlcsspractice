@@ -32,7 +32,6 @@ header {
   position: fixed;
   margin-top: 7px;
   width: 30px;
-  margin-left: 185px;
   float: right;
   -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
@@ -46,7 +45,6 @@ header {
   transform: scale(1.20);
 }
 nav {
-  overflow: hidden;
   background: #262626;
   position: fixed;
   float: right;
@@ -58,7 +56,7 @@ nav {
 
 .menu {
   padding: 0;
-  padding-left: 650px;
+  padding-left: 415px;
   margin: 0;
   display: block;
 }
@@ -66,7 +64,7 @@ nav {
 .menu li {
   float: left;
   display: block;
-  margin-right: 40px;
+  margin-right: 41px;
 }
 
 .menu li a {
