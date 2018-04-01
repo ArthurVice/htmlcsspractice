@@ -81,6 +81,7 @@ nav {
 
 .menu li a:hover{
   font-weight: bold;
+  color: yellow;
 }
 
 h1 {
